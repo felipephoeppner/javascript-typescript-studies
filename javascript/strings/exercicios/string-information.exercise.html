@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Exercise</title>
+</head>
+<body>
+    <script>
+        const name = prompt('Enter your full name:');
+        document.body.innerHTML += `Your name is: <strong> ${name}</strong><br />`;
+        document.body.innerHTML += `Your name has <strong>${name.length}</strong> letters <br />`;
+        document.body.innerHTML += `The second letter of your name is: <strong>${name.charAt(1)}</strong><br />`;
+        document.body.innerHTML += `What is the first index of 'a' in your name? The first 'a' is at index: <strong>${name.indexOf('a')} </strong><br />`;
+        document.body.innerHTML += `What is the last index of 'a' in your name? The last 'a' is at index: <strong>${name.lastIndexOf('a')} </strong><br />`;
+        document.body.innerHTML += `The last 3 letters of your name are:<strong> ${name.slice(-3)}</strong> <br />`;
+        document.body.innerHTML += `The words in your name are:<strong> ${name.split(' ')} </strong><br />`;
+        document.body.innerHTML += `Your name in uppercase:<strong> ${name.toUpperCase()} </strong><br />`;
+        document.body.innerHTML += `Your name in lowercase:<strong> ${name.toLowerCase()}</strong> <br />`;
+    </script>
+</body>
+</html>

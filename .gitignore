@@ -1,0 +1,20 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and build outputs (future use)
+node_modules/
+dist/
+build/
+coverage/
+
+# Logs and local secrets
+*.log
+.env
+.env.*
+!.env.example
